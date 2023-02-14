@@ -40,14 +40,14 @@ function Header() {
           <div className='header_form_light'>
             <form ref={form} onSubmit={tapMale} className='header_form'>
               <div className='header_form_img_block'>
-                <img className='header_form_img' src={i_cross} onClick={actIsNo}/>
+                <img className='header_form_img' alt='img' src={i_cross} onClick={actIsNo}/>
               </div>
               
               <div className='header_form_fields'>
                 <div className='header_form_fields_h2'>Оставить номер телефона</div>
                 <div className='header_form_fields_p'>В самое ближайшее время с Вами свяжется наш очень вежливый менеджер и уточнит детали.</div>
                 <div className='header_form_fields_type'>
-                  <img className='header_form_img_male' src={i_e_male}/>
+                  <img className='header_form_img_male' alt='img' src={i_e_male}/>
                   <div className='header_block_phone'>
                     
 
@@ -91,7 +91,7 @@ function Header() {
   return (
     <header>
         <div className='header_ln'>
-            <img className='header_logo' src={i_logo}/>
+            <img alt='img' className='header_logo' src={i_logo}/>
             <div className='header_name_block'>
               <div className='header_name'>Потолочки Потолки</div>
               <div className='header_name_text'> Монтаж современных натяжных потолков</div> 

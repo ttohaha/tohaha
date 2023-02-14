@@ -18,7 +18,7 @@ function CeilingTypes() {
                 <div className='block_ceilingtype_for_center'>
                     <div className='ceilingtype_one_block card_center'>
                         <div className='ceilingtype_one'>
-                            <div className='ceilingtype_one_heder'><img  className='ceilingtype_one_heder_img' src={type1}/></div>
+                            <div className='ceilingtype_one_heder'><img alt='img' className='ceilingtype_one_heder_img' src={type1}/></div>
                             <div className='ceilingtype_one_body'>
                                 <div className='ceilingtype_one_body_h2'>Резные</div>
                                 <div className='ceilingtype_one_body_button_block'><div className='ceilingtype_one_body_button'>Подробнее</div></div>
@@ -33,7 +33,7 @@ function CeilingTypes() {
                 <div className='block_ceilingtype_for_center'>
                     <div className='ceilingtype_one_block card_center'>
                         <div className='ceilingtype_one'>
-                            <div className='ceilingtype_one_heder'><img  className='ceilingtype_one_heder_img' src={type2}/></div>
+                            <div className='ceilingtype_one_heder'><img alt='img' className='ceilingtype_one_heder_img' src={type2}/></div>
                             <div className='ceilingtype_one_body'>
                                 <div className='ceilingtype_one_body_h2'>Сатиновые</div>
                                 <div className='ceilingtype_one_body_button_block'><div className='ceilingtype_one_body_button'>Подробнее</div></div>
@@ -48,7 +48,7 @@ function CeilingTypes() {
                 <div className='block_ceilingtype_for_center'>
                     <div className='ceilingtype_one_block card_center'>
                         <div className='ceilingtype_one'>
-                            <div className='ceilingtype_one_heder'><img  className='ceilingtype_one_heder_img' src={type3}/></div>
+                            <div className='ceilingtype_one_heder'><img alt='img' className='ceilingtype_one_heder_img' src={type3}/></div>
                             <div className='ceilingtype_one_body'>
                                 <div className='ceilingtype_one_body_h2'>Тканевые</div>
                                 <div className='ceilingtype_one_body_button_block'><div className='ceilingtype_one_body_button'>Подробнее</div></div>
@@ -63,7 +63,7 @@ function CeilingTypes() {
                 <div className='block_ceilingtype_for_center'>
                     <div className='ceilingtype_one_block card_center'>
                         <div className='ceilingtype_one'>
-                            <div className='ceilingtype_one_heder'><img  className='ceilingtype_one_heder_img' src={type4}/></div>
+                            <div className='ceilingtype_one_heder'><img alt='img' className='ceilingtype_one_heder_img' src={type4}/></div>
                             <div className='ceilingtype_one_body'>
                                 <div className='ceilingtype_one_body_h2'>Матовые</div>
                                 <div className='ceilingtype_one_body_button_block'><div className='ceilingtype_one_body_button'>Подробнее</div></div>
@@ -78,7 +78,7 @@ function CeilingTypes() {
                 <div className='block_ceilingtype_for_center'>
                     <div className='ceilingtype_one_block card_center'>
                         <div className='ceilingtype_one'>
-                            <div className='ceilingtype_one_heder'><img  className='ceilingtype_one_heder_img' src={type5}/></div>
+                            <div className='ceilingtype_one_heder'><img alt='img' className='ceilingtype_one_heder_img' src={type5}/></div>
                             <div className='ceilingtype_one_body'>
                                 <div className='ceilingtype_one_body_h2'>Многоуровневые</div>
                                 <div className='ceilingtype_one_body_button_block'><div className='ceilingtype_one_body_button'>Подробнее</div></div>
@@ -93,7 +93,7 @@ function CeilingTypes() {
                 <div className='block_ceilingtype_for_center'>
                     <div className='ceilingtype_one_block card_center'>
                         <div className='ceilingtype_one'>
-                            <div className='ceilingtype_one_heder'><img  className='ceilingtype_one_heder_img' src={type6}/></div>
+                            <div className='ceilingtype_one_heder'><img alt='img' className='ceilingtype_one_heder_img' src={type6}/></div>
                             <div className='ceilingtype_one_body'>
                                 <div className='ceilingtype_one_body_h2'>Световые линии</div>
                                 <div className='ceilingtype_one_body_button_block'><div className='ceilingtype_one_body_button'>Подробнее</div></div>

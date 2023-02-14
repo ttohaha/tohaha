@@ -1,6 +1,4 @@
 import React from 'react'
-import { Swiper, div } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
 import i_acc1 from '../../img/acc1.png'
 
 import "swiper/css";
@@ -22,7 +20,7 @@ function Coments() {
                 <div className='coment_swiper_head_block'>
                     <div className='coment_swiper_head'>
                         <div className='coment_swiper_head_img_block'>
-                            <img className='coment_swiper_head_img' src={i_acc1}/>
+                            <img className='coment_swiper_head_img' alt='img' src={i_acc1}/>
                         </div>
                     </div>
                 </div>
@@ -39,7 +37,7 @@ function Coments() {
                 <div className='coment_swiper_head_block'>
                     <div className='coment_swiper_head'>
                         <div className='coment_swiper_head_img_block'>
-                            <img className='coment_swiper_head_img' src={i_acc1}/>
+                            <img className='coment_swiper_head_img' alt='img' src={i_acc1}/>
                         </div>
                     </div>
                 </div>
@@ -56,7 +54,7 @@ function Coments() {
                 <div className='coment_swiper_head_block'>
                     <div className='coment_swiper_head'>
                         <div className='coment_swiper_head_img_block'>
-                            <img className='coment_swiper_head_img' src={i_acc1}/>
+                            <img className='coment_swiper_head_img' alt='img' src={i_acc1}/>
                         </div>
                     </div>
                 </div>

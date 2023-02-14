@@ -15,10 +15,10 @@ function Footer() {
         </div>
         
         <div className='footer_apps'>
-            <div className='footer_app'><a href='https://sokora-potolki.ru/?yclid=458417298416139989#!'><img className='footer_app_img' src={i_vk}/></a></div>
-            <div className='footer_app'><a href='https://sokora-potolki.ru/?yclid=458417298416139989#!'><img className='footer_app_img' src={i_viber}/></a></div>
-            <div className='footer_app'><a href='https://sokora-potolki.ru/?yclid=458417298416139989#!'><img className='footer_app_img' src={i_telegram}/></a></div>
-            <div className='footer_app'><a href='https://sokora-potolki.ru/?yclid=458417298416139989#!'><img className='footer_app_img' src={i_whatsaap}/></a></div>
+            <div className='footer_app'><a href='https://sokora-potolki.ru/?yclid=458417298416139989#!'><img className='footer_app_img' alt='img' src={i_vk}/></a></div>
+            <div className='footer_app'><a href='https://sokora-potolki.ru/?yclid=458417298416139989#!'><img className='footer_app_img' alt='img' src={i_viber}/></a></div>
+            <div className='footer_app'><a href='https://sokora-potolki.ru/?yclid=458417298416139989#!'><img className='footer_app_img' alt='img' src={i_telegram}/></a></div>
+            <div className='footer_app'><a href='https://sokora-potolki.ru/?yclid=458417298416139989#!'><img className='footer_app_img' alt='img' src={i_whatsaap}/></a></div>
         </div>
     </div>
   )

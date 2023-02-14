@@ -8,7 +8,7 @@ function OurJob() {
         <div className='ourjob_head'>Как мы работаем?</div>
 
         <div className='ourjob_el ourjob_el_r'>
-            <div className='ourjob_img_block ourjob_border_r '><img className='ourjob_img ourjob_border_b' src={i_ourjob1}/></div>
+            <div className='ourjob_img_block ourjob_border_r '><img alt='img' className='ourjob_img ourjob_border_b' src={i_ourjob1}/></div>
             <div className='ourjob_text_block'>
                 <div className='ourjob_text'>
                     <div className='ourjob_text_h2'>1</div>
@@ -26,11 +26,11 @@ function OurJob() {
             </div>
         </div>
             
-            <div className='ourjob_img_block '><img className='ourjob_img ourjob_border_b' src={i_ourjob1}/></div>
+            <div className='ourjob_img_block '><img alt='img' className='ourjob_img ourjob_border_b' src={i_ourjob1}/></div>
         </div>
 
         <div className='ourjob_el ourjob_el_r'>
-            <div className='ourjob_img_block ourjob_border_r'><img className='ourjob_img' src={i_ourjob1}/></div>
+            <div className='ourjob_img_block ourjob_border_r'><img alt='img' className='ourjob_img' src={i_ourjob1}/></div>
             <div className='ourjob_text_block'>
                 <div className='ourjob_text'>
                     <div className='ourjob_text_h2'>3</div>

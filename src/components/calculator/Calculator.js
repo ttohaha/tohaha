@@ -32,8 +32,8 @@ function Calculator() {
             
         </div>
         
-        <img src={i_calculator} className='calculator_calculator'/>
-        <img src={i_calculator2} className='calculator_calculator2'/>
+        <img src={i_calculator} alt='img' className='calculator_calculator'/>
+        <img src={i_calculator2} alt='img' className='calculator_calculator2'/>
     </div>
   )
 }
