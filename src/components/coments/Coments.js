@@ -15,6 +15,62 @@ function Coments() {
 
     <div className='coments'>
 
+        <div className='coment_block'>
+            <div className='coment'>
+                <div>
+                    <div className='coment_header_block'>
+                        <div className='coment_header'>
+                            <img className='coment_header_img' alt='img' src={i_acc1}/>
+                        </div>
+                    </div>
+                </div>
+                <div className='coment_body_block'>
+                    <div className='coment_body'>
+                        <div className='coment_body_text'>asasasasa as .as asaas.asdsdsdsaf dgd sg f gfgfgfd.dfgfdgdfg, fgf. asasasasa as .as asaas.asdsdsdsaf dgd sg f gfgfgfd.dfgfdgdfg, fgf.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className='coment_block'>
+            <div className='coment'>
+                <div>
+                    <div className='coment_header_block'>
+                        <div className='coment_header'>
+                            <img className='coment_header_img' alt='img' src={i_acc1}/>
+                        </div>
+                    </div>
+                </div>
+                <div className='coment_body_block'>
+                    <div className='coment_body'>
+                        <div className='coment_body_text'>asasasasa as .as asaas.asdsdsdsaf dgd sg f gfgfgfd.dfgfdgdfg, fgf. asasasasa as .as asaas.asdsdsdsaf dgd sg f gfgfgfd.dfgfdgdfg, fgf.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className='coment_block'>
+            <div className='coment'>
+                <div>
+                    <div className='coment_header_block'>
+                        <div className='coment_header'>
+                            <img className='coment_header_img' alt='img' src={i_acc1}/>
+                        </div>
+                    </div>
+                </div>
+                <div className='coment_body_block'>
+                    <div className='coment_body'>
+                        <div className='coment_body_text'>asasasasa as .as asaas.asdsdsdsaf dgd sg f gfgfgfd.dfgfdgdfg, fgf. asasasasa as .as asaas.asdsdsdsaf dgd sg f gfgfgfd.dfgfdgdfg, fgf.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    {/* <div className='coments'>
+
         <div className='coment'>
             <div className="coment_swiper">
                 <div className='coment_swiper_head_block'>
@@ -67,7 +123,7 @@ function Coments() {
         </div>
             
               
-    </div>
+    </div> */}
   </div>
     
   )

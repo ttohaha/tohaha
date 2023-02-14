@@ -16,7 +16,7 @@ function Header() {
     e.preventDefault()
     
     let test_ = /_/
-    let mes = '+8('+e.target.message.value 
+    let mes = '+8('+myNumber 
     let sentIt={ message:mes }
 
     if(test_.test(mes)){
@@ -79,8 +79,8 @@ function Header() {
                   </div>
                 </div>
                 <div className='header_form_fields_button_block'>
-                  <button className='header_form_fields_button'>Отправить</button>
-                  {/* <button className='header_form_fields_button' onClick={(e)=> tapMale(e)}>Отправить</button> */}
+                  {/* <div className='header_form_fields_button' onClick={(e)=> tapMale(e)}>Отправить</div> */}
+                  <button className='header_form_fields_button' onClick={tapMale}>Отправить</button>
                 </div>
               </div>
             </form>
@@ -102,7 +102,8 @@ function Header() {
                 <div className='header_els_telephone_number'>8 999 999-99-99</div>
                 <div className='header_els_telephone_text'>Работаем без выходных!</div>
             </div>
-            <input className='header_els_button' type='button' value='Перезвоните мне' onClick={()=> setFormAct(true)}/>
+            {/* <input className='header_els_button' type='button' value='Перезвоните мне'/> */}
+            <div className='header_els_button' onClick={()=> setFormAct(true)}>Перезвоните мне</div>
         </div>
         {formAct && myMenu()}
     </header>
