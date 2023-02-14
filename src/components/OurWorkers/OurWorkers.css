@@ -1,0 +1,90 @@
+.ourworkers{
+    color:rgb(1, 96, 100);
+    margin-bottom: 30px;
+    cursor: default;
+}
+
+.ourworkers_head{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.ourworkers_cards{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.ourworkers_card_block{
+    display: flex;
+    justify-content: center;
+}
+
+.ourworkers_card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.ourworkers_card_img_block{
+    display: flex;
+    justify-content: center;
+}
+
+.ourworkers_card_img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.ourworkers_card_name{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.ourworkers_card_experience{
+    font-size: 14px;
+    opacity: 0.9;
+   margin-bottom: 15px;
+}
+
+.ourworkers_card_line{
+    border: 1.5px solid rgb(1, 96, 100);
+    width: 20%;
+    margin-bottom: 15px;
+}
+
+.ourworkers_card_about{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+@media (max-width:1050px){
+    .ourworkers_cards{
+        grid-template-columns: 50% 50%;
+    }
+
+    .ourworkers_card{
+        margin-bottom: 60px
+    }
+
+    .ourworkers_card_last{
+        margin-bottom: 0;
+    }
+
+    .ourworkers_card_img{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:670px){
+    .ourworkers_cards{
+        grid-template-columns: 100%;
+    }
+}

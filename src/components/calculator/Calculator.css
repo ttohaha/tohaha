@@ -1,0 +1,151 @@
+.calculator{
+    color: white;
+    padding: 30px 15% 30px 15%;
+    cursor: default;
+    position: relative;
+    background-color:rgb(0, 120, 124);
+    margin-bottom: 30px;
+}
+
+.calculator_h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.calculator_fields{
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator_field{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.calculator_field_name{
+    font-size:20px;
+}
+
+.calculator_field_type{
+    border-radius: 5px;
+    border: none;
+    outline:none;
+    margin: 0 10px;
+    width: 50px;
+    background-color: rgb(206, 253, 255);
+    color: rgb(1, 97, 100);
+    font-weight: 700;
+    text-align: center;
+}
+
+.calculator_field_type::-webkit-outer-spin-button,
+.calculator_field_type::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.calculator_block{
+    display: flex;
+    justify-content: space-around
+}
+
+.calculator_price_block{
+    display: flex;
+    align-items: center;
+
+}
+
+.calculator_price{
+    text-align: center;
+}
+
+.calculator_price_s{
+    font-size: 20px;
+}
+
+.calculator_price_b{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.calculator_calculator{
+    position: absolute;
+    top:20px;
+    right: 6%;
+    width: 170px;
+}
+
+.calculator_calculator2{
+    position: absolute;
+    top:20px;
+    left: 6%;
+    width: 170px;
+}
+
+@media (max-width:1080px){
+    .calculator_calculator{
+        right: 3%;
+    }
+    
+    .calculator_calculator2{
+        left: 3%;
+    }
+}
+
+@media (max-width:960px){
+    .calculator_calculator{
+        right: 1%;
+    }
+    
+    .calculator_calculator2{
+        left: 1%;
+    }
+}
+
+@media (max-width:895px){
+    .calculator_calculator{
+        right: 3%;
+    }
+    
+    .calculator_calculator2{
+        left: 3%;
+    }
+
+    .calculator_block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .calculator_price{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .calculator_price_s{
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:680px){
+    .calculator_calculator2{
+        display: none;
+    }
+
+    .calculator_calculator{
+        right: 5px;
+    }
+}
+
+@media (max-width:620px){
+    .calculator_calculator{
+        display: none;
+    }
+
+    .calculator{
+        padding: 30px 5% 50px 5%;
+    }
+}

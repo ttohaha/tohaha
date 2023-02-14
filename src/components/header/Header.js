@@ -1,0 +1,112 @@
+import React, { useState, useRef } from 'react'
+import './Header.css'
+import MaskedInput from 'react-text-mask'
+import emailjs from 'emailjs-com'
+import i_logo from '../../img/logo.jpg'
+import i_cross from '../../img/cross.png'
+import i_e_male from '../../img/e-male.png'
+
+function Header() {
+  const [myNumber, setMyNumber] = useState()
+  const [myNumberColor, setMyNumberColor] = useState(false)
+  const [formAct, setFormAct] = useState(false)
+  const form = useRef()
+
+  function tapMale(e){  
+    e.preventDefault()
+    
+    let test_ = /_/
+    let mes = '+8('+e.target.message.value 
+    let sentIt={ message:mes }
+
+    if(test_.test(mes)){
+      setMyNumberColor(true)
+      console.log();
+    }else{
+      emailjs.send('service_askk1km', 'template_lo92gy4', sentIt, '90yHpAPFFgTeZTZVY'
+      ).catch(err=> console.log(err))
+      actIsNo()
+    }
+  }
+
+  function actIsNo(){
+    setMyNumberColor(false)
+    setMyNumber('')
+    setFormAct(false)
+  }
+
+  const myMenu = ()=>{
+    return(
+          <div className='header_form_light'>
+            <form ref={form} onSubmit={tapMale} className='header_form'>
+              <div className='header_form_img_block'>
+                <img className='header_form_img' src={i_cross} onClick={actIsNo}/>
+              </div>
+              
+              <div className='header_form_fields'>
+                <div className='header_form_fields_h2'>Оставить номер телефона</div>
+                <div className='header_form_fields_p'>В самое ближайшее время с Вами свяжется наш очень вежливый менеджер и уточнит детали.</div>
+                <div className='header_form_fields_type'>
+                  <img className='header_form_img_male' src={i_e_male}/>
+                  <div className='header_block_phone'>
+                    
+
+                    {myNumberColor ? 
+                      <MaskedInput
+                        className='header_form_fields_type_text'
+                        mask={[/[1-9]/, /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]}
+                        showMask={true}
+                        guide={true}
+                        value={myNumber}
+                        onChange={(e)=> setMyNumber(e.target.value)}
+                        name='message'
+                        required
+                        style={{backgroundColor:'rgb(255, 211, 211)'}}
+                      />
+                    : 
+                      <MaskedInput
+                        className='header_form_fields_type_text'
+                        mask={[/[1-9]/, /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]}
+                        showMask={true}
+                        guide={true}
+                        value={myNumber}
+                        onChange={(e)=> setMyNumber(e.target.value)}
+                        name='message'
+                        required
+                      />
+                    }
+                    <div className='header_block_phone_8'>+8{'('}</div>
+                  </div>
+                </div>
+                <div className='header_form_fields_button_block'>
+                  <button className='header_form_fields_button'>Отправить</button>
+                  {/* <button className='header_form_fields_button' onClick={(e)=> tapMale(e)}>Отправить</button> */}
+                </div>
+              </div>
+            </form>
+        </div>
+    )
+  }
+
+  return (
+    <header>
+        <div className='header_ln'>
+            <img className='header_logo' src={i_logo}/>
+            <div className='header_name_block'>
+              <div className='header_name'>Потолочки Потолки</div>
+              <div className='header_name_text'> Монтаж современных натяжных потолков</div> 
+            </div>
+        </div>
+        <div className='header_els'>
+            <div className='header_els_telephone'>
+                <div className='header_els_telephone_number'>8 999 999-99-99</div>
+                <div className='header_els_telephone_text'>Работаем без выходных!</div>
+            </div>
+            <input className='header_els_button' type='button' value='Перезвоните мне' onClick={()=> setFormAct(true)}/>
+        </div>
+        {formAct && myMenu()}
+    </header>
+  )
+}
+
+export default Header

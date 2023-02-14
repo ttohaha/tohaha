@@ -1,0 +1,119 @@
+.ceilingtype_one,
+.ceilingtype_two{
+    width: 270px;
+    height: 225px;
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(180deg, rgba(1,97,100) 0%, rgb(4, 175, 181) 100%);
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+}
+
+.ceilingtype_one{
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.ceilingtype_two{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.ceilingtype_one_block:hover > .ceilingtype_one{
+    transform: perspective(600px) rotateY(-180deg);
+}
+.ceilingtype_one_block:hover > .ceilingtype_two{
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.ceilingtype_one_heder{
+    width: 100%;
+    height: 50%;
+}
+
+.ceilingtype_one_heder_img{
+    width: 55px;
+    height: 55px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.ceilingtype_one_body{
+    width: 100%;
+    height: 50%;
+}
+
+.ceilingtype_one_body_h2{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.ceilingtype_one_body_button{
+    padding: 8px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(255 255 255 / 18%);
+    width:100px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.ceilingtype_one_body_button_block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ceilingtype_two_text{
+    padding: 8px;
+    font-size: 13px;
+}
+
+.ceilingtype_one_block{
+    width: 270px;
+    height: 225px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+
+.ceilingtypes_block{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.block_ceilingtype_for_center{
+    display: flex;
+    justify-content: center;
+}
+
+.ceilingtype_one_block{
+    margin-bottom: 40px;
+}
+
+.ceilingtypes_h2{
+    color: rgb(1, 96, 100);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: default;
+}
+
+@media (max-width:920px){
+    .ceilingtypes_block{
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media (max-width:600px){
+    .ceilingtypes_block{
+        grid-template-columns: 100%;
+    }
+}

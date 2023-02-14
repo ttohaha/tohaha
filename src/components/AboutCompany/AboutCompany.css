@@ -1,0 +1,24 @@
+.aboutcompany{
+    background-color: rgb(0, 120, 124);
+    padding: 20px 5%;
+    cursor: default;
+}
+
+.aboutcompany_h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutcompany_text_block{
+    color: white;
+    font-size: 18px;
+}
+
+.aboutcompany_text{
+    margin-bottom: 5px;
+}
