@@ -23,7 +23,8 @@ function Header() {
       setMyNumberColor(true)
       console.log();
     }else{
-      emailjs.send('service_askk1km', 'template_lo92gy4', sentIt, '90yHpAPFFgTeZTZVY'
+      // emailjs.send('service_askk1km', 'template_lo92gy4', sentIt, '90yHpAPFFgTeZTZVY'
+      emailjs.send('service_fdfuaft', 'template_clhsaom', sentIt, 'J9caGvnAf62MFUDqM'
       ).catch(err=> console.log(err))
       actIsNo()
     }
