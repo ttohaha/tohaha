@@ -1,6 +1,6 @@
 .calculator{
     color: white;
-    padding: 30px 15% 30px 15%;
+    padding: 30px 15% 20px 15%;
     cursor: default;
     position: relative;
     background-color:rgb(0, 120, 124);
@@ -48,6 +48,9 @@
 }
 
 .calculator_block{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom:2px solid rgba(255, 255, 255, 0.286) ;
     display: flex;
     justify-content: space-around
 }
@@ -147,6 +150,11 @@
     }
 
     .calculator{
-        padding: 30px 5% 50px 5%;
+        padding: 30px 5% 20px 5%;
     }
+}
+
+
+@media (max-width:500px){
+    
 }

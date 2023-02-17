@@ -31,11 +31,14 @@ function MySwiper() {
     })
 
     return (
+        <>
         <div className='swiper_main_el'>
             <Swiper className='swiper_block' tag='section' wrapperTag='ul' className='slider' spaceBetween={25} navigation pagination>
                 {slider}
             </Swiper>
         </div>
+        <div className='no_swiper_block'><img className='no_swiper_block_img' src={slide1} alt='no slide'/></div>
+        </>
     )
   }
   

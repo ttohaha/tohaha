@@ -4,6 +4,11 @@ import i_calculator from '../../img/calculator.png'
 import i_calculator2 from '../../img/calculator2.png'
 import MaskedInput from 'react-text-mask'
 
+import i_vk from '../../img/vk.png'
+import i_telegram from '../../img/telegram.png'
+import i_whatsaap from '../../img/whatsapp.png'
+import i_insta from '../../img/insta.png'
+
 function Calculator() {
     const [text1, setText1] = useState(0)
     const [text2, setText2] = useState(0)
@@ -75,6 +80,12 @@ function Calculator() {
                 </div>
             </div>
             
+        </div>
+        <div className='footer_apps'>
+            <div className='footer_app'><a href='https://vk.com/ekbpotolochki' target='_blank' rel="noopener"><img className='footer_app_img' alt='img' src={i_vk}/></a></div>
+            <div className='footer_app'><a href='http://t.me/potolochekpotolok' target='_blank' rel="noopener"><img className='footer_app_img' alt='img' src={i_telegram}/></a></div>
+            <div className='footer_app'><a href='http://wa.me/79920288086' target='_blank' rel="noopener"><img className='footer_app_img' alt='img' src={i_whatsaap}/></a></div>
+            <div className='footer_app'><a href='https://www.instagram.com/potolochki_potolki_ekb/' target='_blank' rel="noopener"><img className='footer_app_img' alt='img' src={i_insta}/></a></div>
         </div>
         
         <img src={i_calculator} alt='img' className='calculator_calculator'/>
