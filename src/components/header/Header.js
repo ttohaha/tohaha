@@ -100,7 +100,7 @@ function Header() {
         </div>
         <div className='header_els'>
             <div className='header_els_telephone'>
-                <div className='header_els_telephone_number'>8 999 999-99-99</div>
+                <div className='header_els_telephone_number'>8 992 028-80-86</div>
                 <div className='header_els_telephone_text'>Работаем без выходных!</div>
             </div>
             {/* <input className='header_els_button' type='button' value='Перезвоните мне'/> */}
