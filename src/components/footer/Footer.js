@@ -12,7 +12,7 @@ function Footer() {
         <div className='footer_h2'>У вас остались вопросы?</div>
         <div className='footer_text'>
             <div className='footer_text_number'>8 992 028-80-86</div>
-            <div className='footer_text_male'>info@sokora.ru</div>
+            <div className='footer_text_male'>Potolochkipotolki@yandex.ru</div>
         </div>
         
         <div className='footer_apps'>
