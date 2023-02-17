@@ -8,6 +8,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/thumbs'
 import 'swiper/css/pagination';
 
+import no_slide1 from '../../img/no_slide1.jpg'
 import slide1 from '../../img/slide1.jpg'
 import slide2 from '../../img/slide2.jpg'
 import slide3 from '../../img/slide3.jpg'
@@ -37,7 +38,10 @@ function MySwiper() {
                 {slider}
             </Swiper>
         </div>
-        <div className='no_swiper_block'><img className='no_swiper_block_img' src={slide1} alt='no slide'/></div>
+        <div className='no_swiper_block'>
+            <img className='no_swiper_block_img no_swiper_block_img1' src={no_slide1} alt='no_slide'/>
+            <img className='no_swiper_block_img no_swiper_block_img2' src={slide1} alt='no_slide'/>
+        </div>
         </>
     )
   }
