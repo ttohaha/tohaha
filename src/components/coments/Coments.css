@@ -74,11 +74,14 @@
 
 .coment_body_text{
     padding: 10px;
+    font-size: 14px;
 }
 
 .coment_header_img{
-    width:100px;
-    height: 100px;
+    width:98px;
+    height: 98px;
+    border-radius: 100%;
+    border: 5px solid white;
 }
 
 @media (max-width:820px){

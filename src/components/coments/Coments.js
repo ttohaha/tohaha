@@ -1,5 +1,6 @@
 import React from 'react'
-import i_acc1 from '../../img/acc1.png'
+// import i_acc1 from '../../img/acc1.png'
+import i_acc2 from '../../img/acc2.jpg'
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -20,7 +21,24 @@ function Coments() {
                 <div>
                     <div className='coment_header_block'>
                         <div className='coment_header'>
-                            <img className='coment_header_img' alt='img' src={i_acc1}/>
+                            <img className='coment_header_img' alt='img' src={i_acc2}/>
+                        </div>
+                    </div>
+                </div>
+                <div className='coment_body_block'>
+                    <div className='coment_body'>
+                        <div className='coment_body_text'>Оперативное и самое главное качественное обслуживание. Очень понравилось. Вся семья довольна. Сделали натяжные потолки, а ощущение будто в новую уютную квартиру переехали. Рекомендую. Потолки топ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className='coment_block'>
+            <div className='coment'>
+                <div>
+                    <div className='coment_header_block'>
+                        <div className='coment_header'>
+                            <img className='coment_header_img' alt='img' src={i_acc2}/>
                         </div>
                     </div>
                 </div>
@@ -37,24 +55,7 @@ function Coments() {
                 <div>
                     <div className='coment_header_block'>
                         <div className='coment_header'>
-                            <img className='coment_header_img' alt='img' src={i_acc1}/>
-                        </div>
-                    </div>
-                </div>
-                <div className='coment_body_block'>
-                    <div className='coment_body'>
-                        <div className='coment_body_text'>asasasasa as .as asaas.asdsdsdsaf dgd sg f gfgfgfd.dfgfdgdfg, fgf. asasasasa as .as asaas.asdsdsdsaf dgd sg f gfgfgfd.dfgfdgdfg, fgf.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div className='coment_block'>
-            <div className='coment'>
-                <div>
-                    <div className='coment_header_block'>
-                        <div className='coment_header'>
-                            <img className='coment_header_img' alt='img' src={i_acc1}/>
+                            <img className='coment_header_img' alt='img' src={i_acc2}/>
                         </div>
                     </div>
                 </div>
