@@ -90,24 +90,29 @@ function Header() {
   }
 
   return (
-    <header>
-        <div className='header_ln'>
-            <img alt='img' className='header_logo' src={i_logo}/>
-            <div className='header_name_block'>
-              <div className='header_name'>Потолочки Потолки</div>
-              <div className='header_name_text'> Монтаж современных натяжных потолков</div> 
-            </div>
+    <>
+      <header>
+        <div className='header_block'>
+          <div className='header_ln'>
+              <img alt='img' className='header_logo' src={i_logo}/>
+              <div className='header_name_block'>
+                <div className='header_name'>Потолочки Потолки</div>
+                <div className='header_name_text'> Монтаж современных натяжных потолков</div> 
+              </div>
+          </div>
+          <div className='header_els'>
+              <div className='header_els_telephone'>
+                  <div className='header_els_telephone_number'>8 992 028-80-86</div>
+                  <div className='header_els_telephone_text'>Работаем без выходных!</div>
+              </div>
+              {/* <input className='header_els_button' type='button' value='Перезвоните мне'/> */}
+              <div className='header_els_button' onClick={()=> setFormAct(true)}>Перезвоните мне</div>
+          </div>
         </div>
-        <div className='header_els'>
-            <div className='header_els_telephone'>
-                <div className='header_els_telephone_number'>8 992 028-80-86</div>
-                <div className='header_els_telephone_text'>Работаем без выходных!</div>
-            </div>
-            {/* <input className='header_els_button' type='button' value='Перезвоните мне'/> */}
-            <div className='header_els_button' onClick={()=> setFormAct(true)}>Перезвоните мне</div>
-        </div>
-        {formAct && myMenu()}
-    </header>
+        <div className='header_paper'/>
+      </header>
+      {/* {formAct && myMenu()} */}
+    </>
   )
 }
 
