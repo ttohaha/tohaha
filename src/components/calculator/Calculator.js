@@ -90,6 +90,7 @@ function Calculator() {
         
         <img src={i_calculator} alt='img' className='calculator_calculator'/>
         <img src={i_calculator2} alt='img' className='calculator_calculator2'/>
+        <div className='calculator_paper'/>
     </div>
   )
 }

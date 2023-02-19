@@ -11,6 +11,7 @@
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
+    
 }
 
 .footer_text{
@@ -36,6 +37,8 @@
 .footer_app{
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 2;
 }
 
 .footer_app_img{
