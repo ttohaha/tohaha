@@ -76,7 +76,7 @@ function Header() {
                         required
                       />
                     }
-                    <div className='header_block_phone_8'>+8{'('}</div>
+                    <div className='header_block_phone_8'>+7{'('}</div>
                   </div>
                 </div>
                 <div className='header_form_fields_button_block'>

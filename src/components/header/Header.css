@@ -15,48 +15,31 @@ header{
 }
 
 .header_logo{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
 }
 
 .header_name{
     color: white;
     font-family: 'Seymour One', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
-    /* padding: 0 0 10px 2vw; */
     padding: 0 0 0px 2vw;
 }
 
 .header_name_text{
     color: rgba(255, 255, 255, 0.8);
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    /* padding: 0 0 10px 2vw; */
-    padding: 0 0 5px 2vw;
+    padding: 0 0 8px 2vw;
 }
 
 .header_name_block{
     display: flex;
     flex-direction: column;
 }
-
-
-
-/*
-.header_name{
-    padding: 0 0 0px 2vw;
-}
-
-.header_name_text{
-    padding: 0 0 5px 2vw;
-}
-
-.header_name_block{
-    flex-direction: column;
-}
-*/
 
 .header_els{
     display: flex;
@@ -71,16 +54,16 @@ header{
 
 .header_els_telephone_number{
     font-weight: 600;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .header_els_telephone_text{
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .header_els_button{
     color:white;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 500;
     background-color: rgba(1, 97, 100, 0.1);
     border-radius: 1px;
@@ -101,7 +84,6 @@ header{
 .header_form_light{
     position: fixed;
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     z-index: 100;
     left: 0;
@@ -131,7 +113,6 @@ header{
 }
 
 .header_form_fields{
-    /* background-color: rgb(1, 96, 100); */
     background: radial-gradient(circle, rgb(255, 255, 255) -300%, rgb(1, 96, 100) 100%);
     color: white;
     height: 100%;
@@ -229,22 +210,221 @@ header{
     color: black;
 }
 
-/* @media (max-width:1050px){
-    .header_name{
-        padding: 0 0 0px 2vw;
-    }
+/* header{
+    width: 100%;
+    height: auto;
+    background-color: rgb(1, 96, 100);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header_ln{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 3vw;
+    cursor: default;
+}
+
+.header_logo{
+    width: 60px;
+    height: 60px;
+}
+
+.header_name{
+    color: white;
+    font-family: 'Seymour One', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0 0 0px 2vw;
+}
+
+.header_name_text{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 0 0 5px 2vw;
+}
+
+.header_name_block{
+    display: flex;
+    flex-direction: column;
+}
+
+.header_els{
+    display: flex;
+    margin-left: auto;
+}
+
+.header_els_telephone{
+    color: white;
+    margin-right: 5vw;
+    cursor: default;
+}
+
+.header_els_telephone_number{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.header_els_telephone_text{
+    font-size: 15px;
+}
+
+.header_els_button{
+    color:white;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgba(1, 97, 100, 0.1);
+    border-radius: 1px;
+    border: none;
+    border-left:2px solid white;
+    cursor: pointer;
+    margin-right: 1vw;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.header_els_button:hover{
+    color:rgb(203, 252, 255);
+}
+
+.header_form_light{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 0.677);
+}
+
+.header_form{
+    width: 600px;
+    height: 325px;
+    margin-top: 120px;
+}
+
+.header_form_img{
+    width: 30px;
+    height: 30px;
+    opacity: 0.7;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+.header_form_img_block{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_form_fields{
+    background: radial-gradient(circle, rgb(255, 255, 255) -300%, rgb(1, 96, 100) 100%);
+    color: white;
+    height: 100%;
+    border-radius: 5px;
+    cursor: default;
+}
+
+.header_form_fields_h2{
+    border-bottom: 2px solid white;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     
-    .header_name_text{
-        padding: 0 0 5px 2vw;
-    }
-    
-    .header_name_block{
-        flex-direction: column;
-    }
+    padding: 15px 0;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.header_form_fields_p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.header_form_fields_type{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_form_img_male{
+    width: 50px;
+    height: 50px;
+}
+
+.header_form_fields_type_text{
+    border-radius: 2px;
+    border: none;
+    outline:none;
+    margin: 0 10px;
+    width: 200px;
+    height: 20px;
+    font-size: 15px;
+    padding: 5px 0 5px 30px;
+}
+
+.header_form_fields_type_text::-webkit-outer-spin-button,
+.header_form_fields_type_text::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.header_form_fields_button_block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header_form_fields_button{
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgba(252, 252, 252, 0.921);
+    color: black;
+    border: none;
+    border-radius: 1px;
+    width: 560px;
+    height: 40px;
+    margin:  10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_form_fields_button::-webkit-outer-spin-button,
+.header_form_fields_button::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.header_block_phone{
+    position: relative;
+}
+
+.header_block_phone_8{
+    position: absolute;
+    font-size: 15px;
+    top:7px;
+    left:15px;
+    color: black;
 } */
 
-/* @media (max-width:650px){ */
-@media (max-width:740px){
+
+
+@media (max-width:780px){
     header{
         flex-direction: column;
     }
@@ -267,7 +447,7 @@ header{
     }
 
     .header_els_button{
-        font-size: 15px;
+        font-size: 16px;
         height: 39.2px;
     }
 
@@ -277,6 +457,14 @@ header{
 
     .header_form_fields_button{
         margin:  10px 15px;
+    }
+
+    .header_els_telephone_number{
+        font-size: 18px;
+    }
+
+    .header_els_telephone_text{
+        font-size: 14px;
     }
 }
 
