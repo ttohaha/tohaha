@@ -258,8 +258,9 @@ header{
     }
 
     .header_form{
-        width:500px
+        width:500px;
     }
+    
 
     .header_form_fields_button{
         margin:  10px 15px;
@@ -286,9 +287,11 @@ header{
     .header_form{
         width:360px;
         height: 350px;
+        margin-top:60px;
     }
 
     .header_form_fields_button{
         margin:  10px 15px;
     }
 }
+

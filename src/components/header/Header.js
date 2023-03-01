@@ -16,7 +16,7 @@ function Header() {
     e.preventDefault()
     
     let test_ = /_/
-    let mes = '+8('+myNumber 
+    let mes = '+7 '+myNumber 
     let sentIt={ message:mes }
 
     if(test_.test(mes)){
