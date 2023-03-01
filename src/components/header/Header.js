@@ -55,7 +55,7 @@ function Header() {
                     {myNumberColor ? 
                       <MaskedInput
                         className='header_form_fields_type_text'
-                        mask={[/[1-9]/, /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]}
+                        mask={[/[1-9]/, /\d/, /\d/, ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]}
                         showMask={true}
                         guide={true}
                         value={myNumber}
@@ -67,16 +67,16 @@ function Header() {
                     : 
                       <MaskedInput
                         className='header_form_fields_type_text'
-                        mask={[/[1-9]/, /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]}
+                        mask={[/[1-9]/, /\d/, /\d/,  ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]}
                         showMask={true}
-                        guide={true}
+                        guide={false}
                         value={myNumber}
                         onChange={(e)=> setMyNumber(e.target.value)}
                         name='message'
                         required
                       />
                     }
-                    <div className='header_block_phone_8'>+7{'('}</div>
+                    <div className='header_block_phone_8'>+7</div>
                   </div>
                 </div>
                 <div className='header_form_fields_button_block'>
